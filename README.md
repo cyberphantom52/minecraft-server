@@ -1,34 +1,86 @@
 # minecraft-server
 
 ## Mods (Server Only)
-YUNG's: ..
-Faster Random: https://modrinth.com/mod/faster-random
-Spawn Animation: https://modrinth.com/datapack/spawn-animations
-Separated Leaves: https://modrinth.com/mod/separatedleaves
-Shared Advancements: https://modrinth.com/mod/shared-advancements
+- Alternate Current: https://modrinth.com/mod/alternate-current
+- Carpet: https://modrinth.com/mod/carpet
+- Dungeons and Taverns: https://modrinth.com/datapack/dungeons-and-taverns
+- Dynamic Lights: https://modrinth.com/datapack/dynamic-lights
+- Faster Random: https://modrinth.com/mod/faster-random
+- More Mobs: https://modrinth.com/datapack/more-mobs
+- ScalableLux: https://modrinth.com/mod/scalablelux
+- Separated Leaves: https://modrinth.com/mod/separatedleaves
+- Shared Advancements: https://modrinth.com/mod/shared-advancements
+- Skin Restorer: https://modrinth.com/mod/skinrestorer
+- Spawn Animation: https://modrinth.com/datapack/spawn-animations
+- Teconic: https://modrinth.com/datapack/tectonic
+- Terralith: https://modrinth.com/datapack/terralith
+- YUNG's: https://modrinth.com/user/YUNGNICKYOUNG
 
 ## Mods (Client Only)
-Explosive Enchantments https://modrinth.com/mod/explosive-enhancement
-Effective: https://modrinth.com/mod/effective
-Advancements Tracker: https://modrinth.com/mod/advancements-tracker/gallery
-Hold My Items: https://modrinth.com/mod/hold-my-items
-Pands's Extra Details: https://modrinth.com/mod/pandas-extra-details
+- 3D-Skin-Layers: https://modrinth.com/mod/3dskinlayers
+- Advancements Tracker: https://modrinth.com/mod/advancements-tracker/gallery
+- Bad Optimizations: https://modrinth.com/mod/badoptimizations
+- Better Third Person: https://modrinth.com/mod/better-third-person
+- Cat_Jam: https://modrinth.com/mod/cat_jam
+- Cave Dust: https://modrinth.com/mod/cave-dust
+- Chat Animation: https://modrinth.com/mod/chatanimation
+- Chat Heads: https://modrinth.com/mod/chat-heads
+- Continuity: https://modrinth.com/mod/continuity
+- Cull Leaves: https://modrinth.com/mod/cull-leaves
+- Effective: https://modrinth.com/mod/effective
+- Enhanced Block Entities: https://modrinth.com/mod/ebe
+- Entity Culling: https://modrinth.com/mod/entityculling
+- Entity Model Features: https://modrinth.com/mod/entity-model-features
+- Entity Texture Features: https://modrinth.com/mod/entitytexturefeatures
+- Explosive Enchantments https://modrinth.com/mod/explosive-enhancement
+- Hold My Items: https://modrinth.com/mod/hold-my-items
+- Immersive Thunder: https://modrinth.com/mod/immersivethunder
+- Inventory Profiles Next: https://modrinth.com/mod/inventory-profiles-next
+- Iris: https://modrinth.com/mod/iris
+- Lithium: https://modrinth.com/mod/lithium
+- Make Bubbles Pop: https://modrinth.com/mod/make_bubbles_pop
+- Model Gap Fix: https://modrinth.com/mod/modelfix
+- Mod Menu: https://modrinth.com/mod/modmenu
+- Pands's Extra Details: https://modrinth.com/mod/pandas-extra-details
+- Particle Rain: https://modrinth.com/mod/particle-rain
+- Presence Footsteps: https://modrinth.com/mod/presence-footsteps
+- Resourccify: https://modrinth.com/mod/resourcify
+- Sodium: https://modrinth.com/mod/sodium
+- Sound Physics Remastered: https://modrinth.com/mod/sound-physics-remastered
+- Status Effect Bars: https://modrinth.com/mod/status-effect-bars
+- Talk Balloons: https://modrinth.com/mod/talk-balloons
+- Visuality: https://modrinth.com/mod/visuality
+- Visual Workbench: https://modrinth.com/mod/visual-workbench
 
 ## Mods (Server & Client)
-Easy X: https://modrinth.com/user/Fuzs
-What Are They Up To (Watut): https://modrinth.com/mod/what-are-they-up-to
-Nyf's Spiders: https://modrinth.com/mod/nyfs-spiders
-Immersive Portals: https://modrinth.com/mod/immersiveportals
-Rare Ice: https://modrinth.com/mod/rare-ice
-Project: Vibrant Journeys: https://modrinth.com/mod/project-vibrant-journeys
-Concurrent Chunk Management Engine: https://modrinth.com/mod/c2me-fabric
-Sleeping Overhaul 2: https://www.curseforge.com/minecraft/mc-mods/sleepingoverhaul2
-More Mobs: https://modrinth.com/datapack/more-mobs
-Amendments: https://modrinth.com/mod/amendments
-Immersive Weathering: https://modrinth.com/mod/immersive-weathering
-Solid Mobs: https://modrinth.com/mod/solid_mobs
-Snowy Sniffer: https://modrinth.com/mod/snow-sniffer
-Wither Spawn Animation: https://modrinth.com/mod/wither-spawn-animation
-Global Wind: https://modrinth.com/mod/global-wind
-Horseman: https://modrinth.com/mod/horseman
-Bedspread: https://modrinth.com/mod/bedspreads
+- Amendments: https://modrinth.com/mod/amendments
+- Bedspread: https://modrinth.com/mod/bedspreads
+- Clumps: https://modrinth.com/mod/clumps
+- Concurrent Chunk Management Engine: https://modrinth.com/mod/c2me-fabric
+- Concurrent Chunk Management Engine: https://modrinth.com/mod/c2me-fabric
+- Connectable Chains: https://modrinth.com/mod/connectiblechains
+- Easy [X]: https://modrinth.com/user/Fuzs
+- Global Wind: https://modrinth.com/mod/global-wind
+- Global Wind: https://modrinth.com/mod/global-wind
+- Glowing Torchflower: https://modrinth.com/mod/glowing-torchflower
+- Horseman: https://modrinth.com/mod/horseman
+- Immersive Portals: https://modrinth.com/mod/immersiveportals
+- Immersive Weathering: https://modrinth.com/mod/immersive-weathering
+- JourneyMap: https://modrinth.com/mod/journeymap
+- Leaves Be Gone: https://modrinth.com/mod/leaves-be-gone
+- Modern Fix: https://modrinth.com/mod/modernfix
+- More Mobs: https://modrinth.com/datapack/more-mobs
+- Nether Portal Spread: https://modrinth.com/mod/nether-portal-spread
+- Noisium: https://modrinth.com/mod/noisium
+- Nyf's Spiders: https://modrinth.com/mod/nyfs-spiders
+- Project: Vibrant Journeys: https://modrinth.com/mod/project-vibrant-journeys
+- Rare Ice: https://modrinth.com/mod/rare-ice
+- Right Click Harvest: https://modrinth.com/mod/rightclickharvest
+- Sleeping Overhaul 2: https://www.curseforge.com/minecraft/mc-mods/sleepingoverhaul2
+- Snowy Sniffer: https://modrinth.com/mod/snow-sniffer
+- Snowy Sniffer: https://modrinth.com/mod/snow-sniffer
+- Solid Mobs: https://modrinth.com/mod/solid_mobs
+- Solid Mobs: https://modrinth.com/mod/solid_mobs
+- What Are They Up To (Watut): https://modrinth.com/mod/what-are-they-up-to
+- Wither Spawn Animation: https://modrinth.com/mod/wither-spawn-animation
+- YDM's Weapon Master: https://modrinth.com/mod/weaponmaster
