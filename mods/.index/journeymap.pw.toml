@@ -1,0 +1,16 @@
+filename = 'journeymap-fabric-1.21.4-6.0.0-beta.47.jar'
+name = 'Journeymap'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '062a81898c7f558cd6820d9a2c4276466b69abf7affb5dc370026381ef2262c26329a6fadb76a28893778166a3cd5e048e4f96354786304d93e2a67a54ae510a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lfHFW1mp/versions/bjbTbat1/journeymap-fabric-1.21.4-6.0.0-beta.47.jar'
+
+[update.modrinth]
+mod-id = 'lfHFW1mp'
+version = 'bjbTbat1'

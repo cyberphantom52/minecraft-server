@@ -1,0 +1,16 @@
+filename = 'connectiblechains-2.5.4+1.21.4.jar'
+name = 'Connectible Chains'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9b23fc76bae7c53f0e6e089c8003eebd0008fd89e63135edd55ce71c46ac8a066f044c81d3c4a302d69191113c40c8888d8133a22a6adcdb99935c5432bbc41b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ykSfIgTw/versions/DoBDsirx/connectiblechains-2.5.4%2B1.21.4.jar'
+
+[update.modrinth]
+mod-id = 'ykSfIgTw'
+version = 'DoBDsirx'

@@ -1,0 +1,16 @@
+filename = 'watut-fabric-1.21.4-1.2.5.jar'
+name = 'What Are They Up To (Watut)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'acb33292098c753d349c310d0b95d65c78188e839b042963f3e958ed04b0d4e44f697ce029f8429b85a85b681f26afd9a60bb219a402f55122ac83184ddee360'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AtB5mHky/versions/K1Qp2Cga/watut-fabric-1.21.4-1.2.5.jar'
+
+[update.modrinth]
+mod-id = 'AtB5mHky'
+version = 'K1Qp2Cga'

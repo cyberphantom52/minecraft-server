@@ -1,0 +1,16 @@
+filename = 'globalwind-1.2.0+1.21.4.jar'
+name = 'Global Wind'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '323b77e41b69520551ee1b176fba79f82327b95e79e15c088a654d0353b5a943734e0b2673483821493260cdf771c16289d08471ffa9cebddfe36259bd35cf45'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3NA5oO44/versions/dHvDQIzm/globalwind-1.2.0%2B1.21.4.jar'
+
+[update.modrinth]
+mod-id = '3NA5oO44'
+version = 'dHvDQIzm'

@@ -1,0 +1,16 @@
+filename = 'netherportalspread-1.21.4-8.4.jar'
+name = 'Nether Portal Spread'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2b491c0816aef5e464cd85adbc55d1c665cddc52250fe8738d0e9ea8f24d63b0eceac45ff9a6f61fe0851734d9ba249ad3aedae6f53f5cfdf8f8460537964e85'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z7UX4SHt/versions/otQumG3K/netherportalspread-1.21.4-8.4.jar'
+
+[update.modrinth]
+mod-id = 'z7UX4SHt'
+version = 'otQumG3K'

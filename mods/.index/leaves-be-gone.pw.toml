@@ -1,0 +1,16 @@
+filename = 'LeavesBeGone-v21.4.3-1.21.4-Fabric.jar'
+name = 'Leaves Be Gone'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8fde9a0e5f449e2a2dfff5c645135e82ab9d74b45c100712689d3ac9d6c85abdc05dd6125c7e44f0542002b2869c98bcbb232d941e9276ff842180dca7b99fcb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AVq17PqV/versions/8fE8f5kT/LeavesBeGone-v21.4.3-1.21.4-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'AVq17PqV'
+version = '8fE8f5kT'

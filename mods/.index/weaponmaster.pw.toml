@@ -1,0 +1,16 @@
+filename = 'weaponmaster_ydm-fabric-1.21.4-4.2.7.jar'
+name = "YDM's Weapon Master"
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bb0da571507f734ad92dc6e3889c623ac97e2788afb330d380f9ed1448f0ffe8666842d6ef2f63879cf0c3cb212aae0f0b579bc42c5c6e2da378b0bcfb56bf6a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qi1sj2da/versions/vnYh9tjm/weaponmaster_ydm-fabric-1.21.4-4.2.7.jar'
+
+[update.modrinth]
+mod-id = 'qi1sj2da'
+version = 'vnYh9tjm'
