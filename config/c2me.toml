@@ -22,7 +22,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # - https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#setPriority(int)
 # 
 threadPoolPriority = "default"
-# (Default: 9) Configures the parallelism of global executor
+# (Default: 3) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [fixes]
@@ -53,7 +53,7 @@ globalExecutorParallelism = "default"
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-	# (Default: 18) No-tick view distance max concurrent chunk loads 
+	# (Default: 6) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
@@ -111,6 +111,18 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
+
+	[vanillaWorldGenOptimizations.nativeAcceleration]
+		# (Default: false) Enable the use of AVX512 for native acceleration
+		# 
+		# Currently, AVX512 implementation is generally slower than AVX2 implementations.
+		# If you ever decide to enable this, make sure you have verified that
+		# AVX512 implementations are faster on your machine.
+		# 
+		allowAVX512 = "default"
+		# (Default: true) Enable the use of bundled native libraries to accelerate world generation
+		# 
+		enabled = "default"
 
 [generalOptimizations]
 	# (Default: 100000) The task interval of mid-tick chunk tasks in nanoseconds (-1 to disable)  
