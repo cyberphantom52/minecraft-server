@@ -10,6 +10,7 @@
       "minecraft:cold_ocean": "2025-09-24 15:35:29 +0530",
       "minecraft:old_growth_pine_taiga": "2025-09-25 22:49:32 +0530",
       "minecraft:forest": "2025-09-24 18:39:19 +0530",
+      "minecraft:taiga": "2025-09-26 10:28:31 +0530",
       "minecraft:lush_caves": "2025-09-23 13:30:55 +0530",
       "minecraft:deep_cold_ocean": "2025-09-24 17:19:19 +0530",
       "minecraft:ice_spikes": "2025-09-23 13:10:46 +0530",
@@ -18,9 +19,11 @@
       "minecraft:ocean": "2025-09-24 18:40:18 +0530",
       "minecraft:jungle": "2025-09-25 22:40:52 +0530",
       "minecraft:cherry_grove": "2025-09-23 08:21:01 +0530",
+      "minecraft:birch_forest": "2025-09-26 10:53:30 +0530",
       "minecraft:windswept_hills": "2025-09-24 15:35:07 +0530",
       "minecraft:old_growth_spruce_taiga": "2025-09-25 22:50:43 +0530",
       "minecraft:snowy_beach": "2025-09-23 13:24:28 +0530",
+      "minecraft:savanna_plateau": "2025-09-26 10:41:53 +0530",
       "minecraft:beach": "2025-09-22 21:20:41 +0530",
       "minecraft:dark_forest": "2025-09-24 17:22:02 +0530",
       "minecraft:sparse_jungle": "2025-09-25 23:00:16 +0530",
@@ -2582,6 +2585,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-09-25 22:49:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-09-25 22:49:02 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/resin_brick": {
     "criteria": {
       "has_resin_clump": "2025-09-25 22:49:05 +0530"
@@ -2594,15 +2609,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pale_oak_planks": {
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
     "criteria": {
-      "has_log": "2025-09-25 22:49:02 +0530"
+      "has_honey_bottle": "2025-09-26 10:33:04 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pale_oak_wood": {
+  "minecraft:recipes/redstone/honey_block": {
     "criteria": {
-      "has_log": "2025-09-25 22:49:02 +0530"
+      "has_honey_bottle": "2025-09-26 10:33:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-09-26 10:39:59 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "pale_residence": "2025-09-26 11:05:03 +0530"
+    },
+    "done": false
+  },
+  "nova_structures:adventure/find_pale_residence": {
+    "criteria": {
+      "pale_residence": "2025-09-26 11:05:03 +0530"
     },
     "done": true
   },
