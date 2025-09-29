@@ -390,17 +390,20 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mutton": "2025-09-24 15:26:12 +0530",
-      "apple": "2025-09-23 10:26:50 +0530",
       "chicken": "2025-09-24 15:27:52 +0530",
-      "spider_eye": "2025-09-28 12:46:24 +0530",
       "bread": "2025-09-23 10:21:26 +0530",
-      "cooked_chicken": "2025-09-28 14:05:46 +0530",
       "cooked_mutton": "2025-09-24 09:01:23 +0530",
-      "mushroom_stew": "2025-09-25 23:00:48 +0530",
       "cooked_beef": "2025-09-23 13:21:07 +0530",
       "baked_potato": "2025-09-24 17:40:40 +0530",
+      "golden_carrot": "2025-09-24 15:16:14 +0530",
+      "beetroot_soup": "2025-09-29 11:58:47 +0530",
+      "apple": "2025-09-23 10:26:50 +0530",
+      "spider_eye": "2025-09-28 12:46:24 +0530",
+      "cooked_chicken": "2025-09-28 14:05:46 +0530",
+      "potato": "2025-09-29 10:46:42 +0530",
+      "mushroom_stew": "2025-09-25 23:00:48 +0530",
       "pumpkin_pie": "2025-09-28 18:56:45 +0530",
-      "golden_carrot": "2025-09-24 15:16:14 +0530"
+      "carrot": "2025-09-29 10:08:49 +0530"
     },
     "done": false
   },
@@ -437,8 +440,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-09-28 22:37:53 +0530",
+      "minecraft:blaze": "2025-09-29 11:59:36 +0530",
       "minecraft:skeleton": "2025-09-23 19:58:52 +0530",
+      "minecraft:wither_skeleton": "2025-09-29 12:02:51 +0530",
       "minecraft:bogged": "2025-09-24 15:47:40 +0530",
+      "minecraft:ghast": "2025-09-29 11:53:39 +0530",
       "minecraft:hoglin": "2025-09-28 19:35:44 +0530",
       "minecraft:cave_spider": "2025-09-24 16:56:16 +0530",
       "minecraft:piglin": "2025-09-28 19:23:39 +0530",
@@ -2878,6 +2884,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-09-28 22:37:53 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/crimson_button": {
     "criteria": {
       "has_planks": "2025-09-28 22:45:12 +0530"
@@ -2896,12 +2908,6 @@
     },
     "done": true
   },
-  "nova_structures:nether/find_piglins": {
-    "criteria": {
-      "nova_structures:piglin_camp": "2025-09-28 22:46:46 +0530"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/crimson_pressure_plate": {
     "criteria": {
       "has_planks": "2025-09-28 22:45:12 +0530"
@@ -2911,12 +2917,6 @@
   "minecraft:recipes/decorations/crimson_sign": {
     "criteria": {
       "has_planks": "2025-09-28 22:45:12 +0530"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-09-28 22:37:53 +0530"
     },
     "done": true
   },
@@ -2932,21 +2932,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2025-09-28 23:01:45 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crimson_fence": {
     "criteria": {
       "has_planks": "2025-09-28 22:45:12 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2025-09-28 23:01:45 +0530"
     },
     "done": true
   },
@@ -2955,6 +2943,12 @@
       "has_planks": "2025-09-28 22:45:12 +0530"
     },
     "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2025-09-28 22:46:46 +0530"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
@@ -2968,9 +2962,213 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-09-28 23:01:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-09-28 23:01:45 +0530"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2025-09-28 23:01:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-09-29 09:59:23 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2025-09-29 10:03:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2025-09-29 10:33:56 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-09-29 10:34:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-09-29 11:53:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_ghast": {
+    "criteria": {
+      "has_ghast_tear": "2025-09-29 11:55:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2025-09-29 11:58:06 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "fortress": "2025-09-29 11:58:22 +0530"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-09-29 11:58:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-09-29 11:59:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-09-29 11:59:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-09-29 11:59:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-09-29 12:04:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-09-29 12:04:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-09-29 12:22:45 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks": {
+    "criteria": {
+      "has_nether_brick_slab": "2025-09-29 12:33:27 +0530"
     },
     "done": true
   },
