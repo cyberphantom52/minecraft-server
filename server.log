@@ -10405,3 +10405,1889 @@ Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
 [09:25:07] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
 [09:25:07] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
 [09:25:07] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[19:36:26] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[19:36:27] [main/INFO]: Dependencies overridden for noisium
+[19:36:27] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11+mod recommends any version of mr_spawn_animationscompats, which is missing!
+	 - You should install any version of mr_spawn_animationscompats for the optimal experience.
+[19:36:27] [main/INFO]: Loading 128 mods:
+	- alternate-current 1.9.0
+	- architectury 17.0.8
+	- axiom 5.0.1
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   |-- com_moulberry_mixinconstraints 1.0.9
+	   \-- lattice 1.2.12
+	- c2me 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-base 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-client-uncapvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-general-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-notickvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-allocs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-dfc 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-natives-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-scheduling 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-general 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-vanilla 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-serializer 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-system 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-server-utils 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-threading-lighting 0.3.5+alpha.0.8+1.21.8
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 19.0.147
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.4
+	- connectiblechains 2.5.4+1.21.8
+	- distanthorizons 2.3.4-b
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+	   \-- fabric-screen-api-v1 2.1.0+277ecf7df3
+	- easyanvils 21.8.0
+	- easyauth 3.3.6
+	   |-- at_favre_lib_bcrypt 0.10.2
+	   |-- at_favre_lib_bytes 1.6.1
+	   |-- com_mysql_mysql-connector-j 9.2.0
+	   |-- de_mkammerer_argon2-jvm 2.12
+	   |-- de_mkammerer_argon2-jvm-nolibs 2.12
+	   |-- net_java_dev_jna_jna 5.16.0
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_mongodb_bson 5.3.1
+	   |-- org_mongodb_mongodb-driver-core 5.3.1
+	   |-- org_mongodb_mongodb-driver-sync 5.3.1
+	   |-- org_xerial_sqlite-jdbc 3.49.1.0
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- easymagic 21.8.0
+	- fabric-api 0.133.4+1.21.8
+	   |-- fabric-api-base 0.5.0+cd8c0daa2c
+	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	   |-- fabric-biome-api-v1 16.0.11+946bf4c32c
+	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
+	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
+	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	   |-- fabric-data-attachment-api-v1 1.8.13+38b5f74e2c
+	   |-- fabric-data-generation-api-v1 23.2.7+0b1ef9762c
+	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
+	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
+	   |-- fabric-events-interaction-v0 4.0.25+946bf4c32c
+	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
+	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
+	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
+	   |-- fabric-model-loading-api-v1 5.2.7+946bf4c32c
+	   |-- fabric-networking-api-v1 5.0.3+4ddbf91b2c
+	   |-- fabric-object-builder-api-v1 21.1.9+946bf4c32c
+	   |-- fabric-particles-v1 4.1.9+946bf4c32c
+	   |-- fabric-recipe-api-v1 8.1.16+946bf4c32c
+	   |-- fabric-registry-sync-v0 6.1.29+946bf4c32c
+	   |-- fabric-renderer-api-v1 7.0.4+208eed172c
+	   |-- fabric-renderer-indigo 4.0.4+946bf4c32c
+	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	   |-- fabric-rendering-v1 12.5.1+fbe231d52c
+	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	   |-- fabric-resource-loader-v0 3.1.12+020423442c
+	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
+	   |-- fabric-screen-handler-api-v1 1.3.138+946bf4c32c
+	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
+	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
+	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.8.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- geophilic 3.4.3
+	- horseman 1.5.5
+	- jamlib 1.3.5+1.21.8
+	   \-- blue_endless_jankson 1.2.3
+	- java 25
+	- journeymap 1.21.8-6.0.0-beta.52
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.21-1.21.7
+	   \-- journeymap-api-fabric 2.0.0-1.21.7-SNAPSHOT
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- leavesbegone 21.8.0
+	- lithium 0.18.0+mc1.21.8
+	- lithostitched 1.5.0+beta5
+	- minecraft 1.21.8
+	- moremobs 1.5.6+bump+mod
+	- mr_dungeons_andtaverns 1-v4.7.3
+	- netherportalspread 8.4
+	- noisium 2.7.0+mc1.21.6
+	- puzzleslib 21.8.6
+	- rightclickharvest 4.6.0+1.21.8
+	- scalablelux 0.1.5.1+fabric.abdeefa
+	- skinrestorer 2.4.3+1.21.6-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- spawnanimations 1.11+mod
+	- tectonic 3.0.13
+	- terralith 2.5.11
+	- treeharvester 9.2
+	- visualworkbench 21.8.1
+	- voicechat 1.21.8-2.6.4
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+	   \-- voicechat_api 2.6.0
+	- weaponmaster_ydm 4.4.1
+[19:36:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/zaidkhan/Downloads/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:36:27] [main/INFO]: Compatibility level set to JAVA_16
+[19:36:27] [main/INFO]: Compatibility level set to JAVA_17
+[19:36:27] [main/INFO]: Compatibility level set to JAVA_21
+[19:36:27] [main/INFO]: Loading Mixin Plugin for Axiom/5.0.1
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:36:27] [main/INFO]: Global Executor Parallelism: 6 configured, 6 evaluated, 6 default evaluated
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[19:36:27] [main/WARN]: Cannot find native library osx-aarch_64-libc2me-opts-natives-math.dylib, possibly unsupported platform for native acceleration
+[19:36:27] [main/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:36:27] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@17.0.8 (*) (defined in c2me)
+[19:36:27] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:36:27] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:36:27] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:36:27] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:36:27] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:36:27] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:36:27] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:36:27] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[19:36:27] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:36:28] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[19:36:28] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
+[19:36:28] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:36:35] [main/INFO]: Initializing Axiom/5.0.1. Build timestamp: 1754799746052
+[19:36:35] [main/INFO]: Loading Collective version 8.4.
+[19:36:35] [main/INFO]: Initialized entity types.
+[19:36:35] [main/INFO]: Register Custom Payloads for Networking.
+[19:36:35] [main/INFO]: Constructing components for easyanvils:common
+[19:36:35] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[19:36:35] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[19:36:35] [main/INFO]: Constructing components for easymagic:common
+[19:36:35] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[19:36:36] [main/INFO]: Initializing JamLib on Fabric
+[19:36:36] [main/INFO]: Initializing ServerSide Packet Registries
+[19:36:36] [main/INFO]: Compression will use libdeflate (macOS ARM64 / Apple Silicon), encryption will use native (macOS ARM64 / Apple Silicon)
+[19:36:36] [main/INFO]: Constructing components for leavesbegone:common
+[19:36:37] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
+[19:36:37] [main/INFO]: Loading Noisium.
+[19:36:37] [main/INFO]: Constructing components for puzzleslib:common
+[19:36:37] [main/INFO]: Updated config file at /Users/zaidkhan/Downloads/minecraft-server/config/rightclickharvest.json5
+[19:36:37] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[19:36:37] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[19:36:37] [main/INFO]: Constructing components for visualworkbench:common
+[19:36:37] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[19:36:37] [main/INFO]: [voicechat] Compatibility version 20
+[19:36:37] [main/INFO]: [voicechat] Loading plugins
+[19:36:37] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[19:36:37] [main/INFO]: [voicechat] Initializing plugins
+[19:36:37] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[19:36:37] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[19:36:37] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[19:36:37] [main/INFO]: Distant Horizons, Version: 2.3.4-b
+[19:36:37] [main/INFO]: Registering Fabric Server Events
+[19:36:37] [main/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[19:36:37] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[19:36:37] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:36:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:36:40] [main/INFO]: Loaded 1414 recipes
+[19:36:40] [main/INFO]: Loaded 1577 advancements
+[19:36:40] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 44 translation keys
+[19:36:40] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 1.636 ms
+[19:36:40] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[19:36:40] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[19:36:40] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[19:36:40] [Server thread/INFO]: Initialising config for DistantHorizons
+[19:36:40] [Server thread/INFO]: Config for DistantHorizons initialised
+[19:36:40] [Server thread/INFO]: Running Delayed setup...
+[19:36:40] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[19:36:40] [Server thread/INFO]: Checking for Distant Horizons update
+[19:36:41] [Server thread/INFO]: Distant Horizons already up to date.
+[19:36:41] [Server thread/INFO]: Distant Horizons server Initialized at 
+[19:36:41] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[19:36:41] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[19:36:41] [Server thread/INFO]: Loading properties
+[19:36:41] [Server thread/INFO]: Default game type: SURVIVAL
+[19:36:41] [Server thread/INFO]: Generating keypair
+[19:36:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:36:41] [Server thread/INFO]: Using default channel type
+[19:36:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:36:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:36:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:36:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:36:41] [Server thread/INFO]: Preparing level "world"
+[19:36:41] [Server thread/INFO]: Enforcing safe world random access
+[19:36:42] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 481.0 ms
+[19:36:42] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[19:36:42] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[19:36:43] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[19:36:43] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[19:36:43] [DH-ApplyConfigPresetTimer/INFO]: preset active: LOW_IMPACT
+[19:36:43] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:36:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[19:36:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.134 ms
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:36:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
+[19:36:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.44 ms
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[19:36:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[19:36:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/data;./world/DIM1/data)]].
+[19:36:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:36:49] [c2me-worker-5/INFO]: Preparing spawn area: 81%
+[19:36:49] [c2me-worker-4/INFO]: Preparing spawn area: 81%
+[19:36:49] [Server thread/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[19:36:53] [c2me-worker-1/INFO]: Preparing spawn area: 100%
+[19:36:53] [Server thread/INFO]: Time elapsed: 4561 ms
+[19:36:53] [Server thread/INFO]: Done (11.757s)! For help, type "help"
+[19:36:53] [Server thread/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[19:36:53] [Server thread/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[19:36:53] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[19:36:53] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@32537ad8 for service interface journeymap.api.services.ClientPlatformService
+[19:36:53] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@15ca6f09 for service interface journeymap.api.services.CommonPlatformService
+[19:36:53] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19:36:53] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[19:36:53] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[19:36:53] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[19:36:53] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[19:36:53] [Server thread/INFO]: Batch Chunk Generator initialized
+[19:36:53] [Server thread/INFO]: Creating world gen queue
+[19:36:53] [Server thread/INFO]: Created world gen queue
+[19:36:53] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[19:36:53] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[19:36:53] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[19:36:53] [Server thread/INFO]: Batch Chunk Generator initialized
+[19:36:53] [Server thread/INFO]: Creating world gen queue
+[19:36:53] [Server thread/INFO]: Created world gen queue
+[19:36:53] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[19:36:53] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[19:36:53] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[19:36:53] [Server thread/INFO]: Batch Chunk Generator initialized
+[19:36:53] [Server thread/INFO]: Creating world gen queue
+[19:36:53] [Server thread/INFO]: Created world gen queue
+[19:36:53] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[19:37:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:39:22] [Server thread/INFO]: zaidkhan[/192.168.29.51:50431] logged in with entity id 120 at (462.31015596277064, 79.0, 370.49381509402684)
+[19:39:22] [Server thread/INFO]: Player [zaidkhan] joined.
+[19:39:22] [Server thread/INFO]: zaidkhan joined the game
+[19:39:23] [Server thread/INFO]: [voicechat] Received secret request of zaidkhan (20)
+[19:39:23] [Server thread/INFO]: [voicechat] Sent secret to zaidkhan
+[19:39:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:39:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:39:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player zaidkhan (18ed1ed0-cb01-39b7-9e2e-dacf2648ce40) successfully connected to voice chat
+[19:47:13] [Netty Server IO #2/INFO]: Player [zaidkhan] disconnected.
+[19:47:13] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[19:47:13] [Server thread/INFO]: zaidkhan left the game
+[19:47:13] [Server thread/INFO]: [voicechat] Disconnecting client zaidkhan
+[19:48:05] [Server thread/INFO]: zaidkhan[/192.168.29.51:50458] logged in with entity id 1783 at (376.14004803246723, 66.0, 387.3740455576291)
+[19:48:05] [Server thread/INFO]: Player [zaidkhan] joined.
+[19:48:05] [Server thread/INFO]: zaidkhan joined the game
+[19:48:05] [Server thread/INFO]: [voicechat] Received secret request of zaidkhan (20)
+[19:48:05] [Server thread/INFO]: [voicechat] Sent secret to zaidkhan
+[19:48:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:48:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:48:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player zaidkhan (18ed1ed0-cb01-39b7-9e2e-dacf2648ce40) successfully connected to voice chat
+[19:48:10] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/1805, l='ServerLevel[world]', x=364.33, y=-1.00, z=369.02] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[19:49:51] [Netty Server IO #4/INFO]: Player [zaidkhan] disconnected.
+[19:49:51] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[19:49:51] [Server thread/INFO]: zaidkhan left the game
+[19:49:51] [Server thread/INFO]: [voicechat] Disconnecting client zaidkhan
+[19:50:30] [Server thread/INFO]: zaidkhan[/192.168.29.51:50468] logged in with entity id 2116 at (457.16978110235135, 79.0, 389.88078499178187)
+[19:50:30] [Server thread/INFO]: Player [zaidkhan] joined.
+[19:50:30] [Server thread/INFO]: zaidkhan joined the game
+[19:50:31] [Server thread/INFO]: [voicechat] Received secret request of zaidkhan (20)
+[19:50:31] [Server thread/INFO]: [voicechat] Sent secret to zaidkhan
+[19:50:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:50:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:50:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player zaidkhan (18ed1ed0-cb01-39b7-9e2e-dacf2648ce40) successfully connected to voice chat
+[19:52:08] [Netty Server IO #6/INFO]: Player [zaidkhan] disconnected.
+[19:52:08] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[19:52:08] [Server thread/INFO]: zaidkhan left the game
+[19:52:08] [Server thread/INFO]: [voicechat] Disconnecting client zaidkhan
+[19:52:51] [Server thread/INFO]: zaidkhan[/192.168.29.51:50504] logged in with entity id 2338 at (457.16978110235135, 79.0, 389.88078499178187)
+[19:52:51] [Server thread/INFO]: Player [zaidkhan] joined.
+[19:52:51] [Server thread/INFO]: zaidkhan joined the game
+[19:52:52] [Server thread/INFO]: [voicechat] Received secret request of zaidkhan (20)
+[19:52:52] [Server thread/INFO]: [voicechat] Sent secret to zaidkhan
+[19:52:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:52:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:52:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player zaidkhan (18ed1ed0-cb01-39b7-9e2e-dacf2648ce40) successfully connected to voice chat
+[19:55:37] [Netty Server IO #8/INFO]: Player [zaidkhan] disconnected.
+[19:55:37] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[19:55:37] [Server thread/INFO]: zaidkhan left the game
+[19:55:37] [Server thread/INFO]: [voicechat] Disconnecting client zaidkhan
+[19:56:15] [Server thread/INFO]: zaidkhan[/192.168.29.51:50534] logged in with entity id 2650 at (457.12120012038724, 79.0, 390.6966154408684)
+[19:56:15] [Server thread/INFO]: Player [zaidkhan] joined.
+[19:56:15] [Server thread/INFO]: zaidkhan joined the game
+[19:56:16] [Server thread/INFO]: [voicechat] Received secret request of zaidkhan (20)
+[19:56:16] [Server thread/INFO]: [voicechat] Sent secret to zaidkhan
+[19:56:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:56:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[19:56:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player zaidkhan (18ed1ed0-cb01-39b7-9e2e-dacf2648ce40) successfully connected to voice chat
+[20:01:04] [ForkJoinPool.commonPool-worker-12/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[20:01:06] [Server thread/INFO]: cyberphantom52[/100.125.80.59:44952] logged in with entity id 3652 at (-162.4780924166202, 71.0, -246.69999998807907)
+[20:01:06] [Server thread/INFO]: Player [cyberphantom52] joined.
+[20:01:06] [Server thread/INFO]: cyberphantom52 joined the game
+[20:01:07] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[20:01:07] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[20:01:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[20:01:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[20:01:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[20:01:25] [Server thread/INFO]: [Not Secure] <zaidkhan> mic charging
+[20:01:30] [Server thread/INFO]: [Not Secure] <cyberphantom52> ok
+[20:01:33] [Server thread/INFO]: [Not Secure] <cyberphantom52> i come to u
+[20:01:38] [Server thread/INFO]: [Not Secure] <cyberphantom52> i take u to nether
+[20:01:42] [Server thread/INFO]: [Not Secure] <zaidkhan> im listening
+[20:01:50] [Server thread/INFO]: [Not Secure] <zaidkhan> ok
+[20:03:12] [Netty Server IO #12/INFO]: Player [cyberphantom52] disconnected.
+[20:03:12] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[20:03:12] [Server thread/INFO]: cyberphantom52 left the game
+[20:03:12] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[20:04:42] [ForkJoinPool.commonPool-worker-14/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[20:04:44] [Server thread/INFO]: cyberphantom52[/100.125.80.59:35566] logged in with entity id 4876 at (-86.90455246710792, 86.0, -30.368400535237672)
+[20:04:44] [Server thread/INFO]: Player [cyberphantom52] joined.
+[20:04:44] [Server thread/INFO]: cyberphantom52 joined the game
+[20:04:44] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[20:04:44] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[20:04:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[20:04:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[20:04:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[20:05:51] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:06:12] [Server thread/INFO]: [Not Secure] <zaidkhan> were you at\
+[20:06:15] [Server thread/INFO]: [Not Secure] <cyberphantom52> outside
+[20:06:41] [Server thread/INFO]: [Not Secure] <cyberphantom52> we got anvils?
+[20:06:49] [Server thread/INFO]: [Not Secure] <zaidkhan> yes
+[20:06:55] [Server thread/INFO]: [Not Secure] <cyberphantom52> lemme get iron
+[20:06:58] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/5554, l='ServerLevel[world]', x=402.65, y=31.50, z=458.35] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[20:07:05] [Server thread/INFO]: [Not Secure] <cyberphantom52> need to repair armor
+[20:07:15] [Server thread/INFO]: [Not Secure] <cyberphantom52> where is anvil?
+[20:07:24] [Server thread/INFO]: [Not Secure] <zaidkhan> inside near enchant
+[20:08:44] [Server thread/INFO]: [Not Secure] <cyberphantom52> come w me
+[20:08:47] [Server thread/INFO]: [Not Secure] <zaidkhan> sleep
+[20:08:52] [Server thread/INFO]: [Not Secure] <cyberphantom52> wait
+[20:09:27] [Server thread/INFO]: [Not Secure] <zaidkhan> how much xp
+[20:09:31] [Server thread/INFO]: [Not Secure] <cyberphantom52> come come
+[20:09:31] [Server thread/INFO]: [Not Secure] <zaidkhan> do yu hav
+[20:09:34] [Server thread/INFO]: [Not Secure] <cyberphantom52> me?
+[20:09:37] [Server thread/INFO]: [Not Secure] <zaidkhan> y
+[20:09:38] [Server thread/INFO]: [Not Secure] <cyberphantom52> idk, 3 prolly
+[20:09:44] [Server thread/INFO]: [Not Secure] <zaidkhan> wait
+[20:10:31] [Server thread/INFO]: [Not Secure] <zaidkhan> come
+[20:10:42] [Server thread/INFO]: [Not Secure] <cyberphantom52> wait farming
+[20:13:43] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:13:44] [Server thread/INFO]: Player [zaidkhan] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:14:48] [Server thread/INFO]: zaidkhan has completed the challenge [Hot Tourist Destinations]
+[20:16:47] [Server thread/INFO]: zaidkhan has made the advancement [A Terrible Fortress]
+[20:19:04] [Server thread/INFO]: zaidkhan has made the advancement [Hot Stuff]
+[20:21:15] [Server thread/INFO]: zaidkhan has made the advancement [Into Fire]
+[20:22:06] [ForkJoinPool.commonPool-worker-16/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[20:22:07] [Server thread/INFO]: Haziq[/100.78.192.9:54915] logged in with entity id 8885 at (386.375886771803, 27.0, 428.76249998807907)
+[20:22:07] [Server thread/INFO]: Player [Haziq] joined.
+[20:22:07] [Server thread/INFO]: Haziq joined the game
+[20:22:17] [Server thread/INFO]: [Not Secure] <cyberphantom52> hazu join group
+[20:22:20] [Server thread/INFO]: [Not Secure] <cyberphantom52> press dot
+[20:22:23] [Server thread/INFO]: [Not Secure] <cyberphantom52> then groups
+[20:22:26] [Server thread/INFO]: [Not Secure] <cyberphantom52> click the group
+[20:22:34] [Server thread/INFO]: [Not Secure] <cyberphantom52> got it?
+[20:22:38] [Server thread/INFO]: [Not Secure] <cyberphantom52> hazu?
+[20:22:47] [Server thread/INFO]: [Not Secure] <Haziq> i dont have the mod remember?
+[20:22:55] [Server thread/INFO]: [Not Secure] <cyberphantom52> acha come discordo
+[20:24:01] [Server thread/INFO]: cyberphantom52 was slain by Blaze
+[20:24:04] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:24:12] [Netty Server IO #1/INFO]: Player [Haziq] disconnected.
+[20:24:12] [Server thread/INFO]: Haziq lost connection: Disconnected
+[20:24:12] [Server thread/INFO]: Haziq left the game
+[20:24:12] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[20:25:00] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:31:42] [Server thread/INFO]: cyberphantom52 burned to death
+[20:31:43] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:31:53] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:36:07] [Server thread/INFO]: cyberphantom52 went up in flames
+[20:36:08] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:36:29] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/11375, l='ServerLevel[world]', x=423.35, y=-9.50, z=418.35] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[20:36:35] [ForkJoinPool.commonPool-worker-18/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[20:36:37] [Server thread/INFO]: Haziq[/100.78.192.9:50906] logged in with entity id 11458 at (386.53481885704576, 27.0, 428.76249998807907)
+[20:36:37] [Server thread/INFO]: Player [Haziq] joined.
+[20:36:37] [Server thread/INFO]: Haziq joined the game
+[20:36:38] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[20:36:38] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[20:36:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[20:36:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[20:36:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[20:36:44] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/11435, l='ServerLevel[world]', x=419.35, y=-2.50, z=367.99] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[20:38:06] [Netty Server IO #15/INFO]: Player [cyberphantom52] disconnected.
+[20:38:06] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[20:38:06] [Server thread/INFO]: cyberphantom52 left the game
+[20:38:06] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[20:38:12] [ForkJoinPool.commonPool-worker-20/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[20:38:12] [Server thread/INFO]: cyberphantom52[/100.125.80.59:43684] logged in with entity id 11846 at (393.8135630175342, 68.0, 401.2245270126568)
+[20:38:12] [Server thread/INFO]: Player [cyberphantom52] joined.
+[20:38:12] [Server thread/INFO]: cyberphantom52 joined the game
+[20:38:13] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[20:38:13] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[20:38:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[20:38:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[20:38:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[20:40:00] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:40:01] [Server thread/INFO]: Player [Haziq] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:43:00] [Netty Server IO #4/INFO]: Player [Haziq] disconnected.
+[20:43:00] [Server thread/INFO]: Haziq lost connection: Disconnected
+[20:43:00] [Server thread/INFO]: Haziq left the game
+[20:43:00] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[20:48:14] [Server thread/INFO]: cyberphantom52 was slain by Wither Skeleton
+[20:48:15] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:48:31] [ForkJoinPool.commonPool-worker-22/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[20:48:33] [Server thread/INFO]: Haziq[/100.78.192.9:49863] logged in with entity id 12961 at (-152.06546355870887, 71.0, -245.39188909405632)
+[20:48:33] [Server thread/INFO]: Player [Haziq] joined.
+[20:48:33] [Server thread/INFO]: Haziq joined the game
+[20:48:34] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[20:48:34] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[20:48:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[20:48:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[20:48:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[20:49:37] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:53:25] [Server thread/INFO]: cyberphantom52 tried to swim in lava to escape Blaze
+[20:53:33] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:53:39] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/13830, l='ServerLevel[world]', x=423.05, y=9.00, z=359.02] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[20:53:44] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:56:14] [Server thread/INFO]: Haziq was slain by Wither Skeleton
+[20:56:16] [Server thread/INFO]: Player [Haziq] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[20:56:28] [Server thread/INFO]: Player [Haziq] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[20:58:35] [Netty Server IO #6/INFO]: Player [cyberphantom52] disconnected.
+[20:58:35] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[20:58:35] [Server thread/INFO]: cyberphantom52 left the game
+[20:58:35] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[21:02:32] [Server thread/INFO]: Player [zaidkhan] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[21:02:35] [Server thread/INFO]: Player [Haziq] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[21:07:10] [Server thread/INFO]: zaidkhan has made the advancement [Local Brewery]
+[21:10:12] [ForkJoinPool.commonPool-worker-24/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[21:10:14] [Server thread/INFO]: cyberphantom52[/100.125.80.59:33456] logged in with entity id 19798 at (-154.8193131239008, 74.0, -256.61404306897657)
+[21:10:14] [Server thread/INFO]: Player [cyberphantom52] joined.
+[21:10:14] [Server thread/INFO]: cyberphantom52 joined the game
+[21:10:15] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[21:10:15] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[21:10:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[21:10:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[21:10:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[21:14:36] [Server thread/INFO]: cyberphantom52 fell off some twisting vines
+[21:14:37] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[21:16:41] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:overworld] -> [dkna29qjq5raq@minecraft:the_nether].
+[21:17:24] [Netty Server IO #9/INFO]: Player [Haziq] disconnected.
+[21:17:24] [Server thread/INFO]: Haziq lost connection: Disconnected
+[21:17:24] [Server thread/INFO]: Haziq left the game
+[21:17:24] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[21:17:33] [Server thread/INFO]: Haziq[/100.78.192.9:50074] logged in with entity id 23993 at (371.9586429408794, 60.0, 440.6201041450584)
+[21:17:33] [Server thread/INFO]: Player [Haziq] joined.
+[21:17:33] [Server thread/INFO]: Haziq joined the game
+[21:17:33] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[21:17:33] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[21:17:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:17:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:17:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[21:20:52] [Server thread/INFO]: cyberphantom52 tried to swim in lava to escape Blaze
+[21:20:55] [Server thread/INFO]: Player [cyberphantom52] changed level: [dkna29qjq5raq@minecraft:the_nether] -> [dkna29qjq5raq@minecraft:overworld].
+[21:22:46] [Server thread/WARN]: cyberphantom52 moved too quickly! 0.0,-10.867409983895094,0.0
+[21:25:14] [Server thread/WARN]: cyberphantom52 moved too quickly! -0.0011283513999842398,-10.188594643186825,0.19933755019650334
+[21:25:29] [Server thread/WARN]: cyberphantom52 moved too quickly! 0.0,10.359999987483064,0.0
+[21:27:38] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/29076, l='ServerLevel[world]', x=458.98, y=15.00, z=672.07] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[21:29:11] [Netty Server IO #14/INFO]: Player [Haziq] disconnected.
+[21:29:11] [Server thread/INFO]: Haziq lost connection: Disconnected
+[21:29:11] [Server thread/INFO]: Haziq left the game
+[21:29:11] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[21:29:12] [Netty Server IO #12/INFO]: Player [cyberphantom52] disconnected.
+[21:29:12] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[21:29:12] [Server thread/INFO]: cyberphantom52 left the game
+[21:29:12] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[21:29:16] [Server thread/INFO]: Haziq (/100.78.192.9:50144) lost connection: Disconnected
+[21:29:18] [ForkJoinPool.commonPool-worker-28/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[21:29:26] [ForkJoinPool.commonPool-worker-29/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[21:29:26] [Server thread/INFO]: Haziq[/100.78.192.9:50145] logged in with entity id 30020 at (482.47067149646824, -54.0, 582.945793681006)
+[21:29:26] [Server thread/INFO]: Player [Haziq] joined.
+[21:29:26] [Server thread/INFO]: Haziq joined the game
+[21:29:26] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[21:29:26] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[21:29:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:29:27] [Server thread/INFO]: cyberphantom52[/100.125.80.59:32902] logged in with entity id 30138 at (456.756782522545, 69.0, 418.923639127882)
+[21:29:27] [Server thread/INFO]: Player [cyberphantom52] joined.
+[21:29:27] [Server thread/INFO]: cyberphantom52 joined the game
+[21:29:27] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[21:29:27] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[21:29:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:29:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[21:29:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[21:29:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[21:29:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[21:37:58] [Netty Server IO #2/INFO]: Player [Haziq] disconnected.
+[21:37:58] [Server thread/INFO]: Haziq lost connection: Disconnected
+[21:37:58] [Server thread/INFO]: Haziq left the game
+[21:37:58] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[21:40:15] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/37382, l='ServerLevel[world]', x=370.35, y=13.50, z=488.35] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[21:44:27] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/37951, l='ServerLevel[world]', x=494.65, y=-16.50, z=437.65] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[21:47:48] [Netty Server IO #3/INFO]: Player [cyberphantom52] disconnected.
+[21:47:48] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[21:47:48] [Server thread/INFO]: cyberphantom52 left the game
+[21:47:48] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[21:48:11] [ForkJoinPool.commonPool-worker-31/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[21:48:13] [Server thread/INFO]: cyberphantom52[/100.125.80.59:39252] logged in with entity id 38378 at (463.8651058220076, 79.0, 369.9430271368045)
+[21:48:13] [Server thread/INFO]: Player [cyberphantom52] joined.
+[21:48:13] [Server thread/INFO]: cyberphantom52 joined the game
+[21:48:14] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[21:48:14] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[21:48:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[21:48:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[21:48:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[21:49:13] [ForkJoinPool.commonPool-worker-31/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[21:49:15] [Server thread/INFO]: Haziq[/100.78.192.9:50335] logged in with entity id 39200 at (362.3704267528256, 68.0, 381.8280780222705)
+[21:49:15] [Server thread/INFO]: Player [Haziq] joined.
+[21:49:15] [Server thread/INFO]: Haziq joined the game
+[21:49:16] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[21:49:16] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[21:49:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:49:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:49:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[21:58:50] [Server thread/INFO]: [Not Secure] <cyberphantom52> sleep
+[21:58:54] [Server thread/INFO]: [Not Secure] <cyberphantom52> guys sleep
+[21:58:56] [Server thread/INFO]: [Not Secure] <cyberphantom52> or leabe
+[21:59:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 6fe5b510-fd91-3419-9397-5e8d4f02c037 timed out
+[21:59:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Haziq
+[21:59:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Haziq
+[21:59:06] [ForkJoinPool.commonPool-worker-33/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to download image
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[21:59:08] [Server thread/INFO]: Haziq (/100.78.192.9:50403) lost connection: Disconnected
+[21:59:24] [Server thread/INFO]: Player [Haziq] disconnected.
+[21:59:24] [Server thread/INFO]: Haziq lost connection: Disconnected
+[21:59:24] [Server thread/INFO]: Haziq left the game
+[21:59:24] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[21:59:24] [Netty Server IO #8/WARN]: Failed to deliver packet, sending fallback clientbound/minecraft:system_chat
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
+[21:59:24] [Netty Server IO #8/WARN]: Failed to deliver packet, sending fallback clientbound/minecraft:system_chat
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel.close(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
+[21:59:25] [Server thread/INFO]: Haziq[/100.78.192.9:50406] logged in with entity id 43260 at (369.44330190592774, 61.0, 438.83892162933233)
+[21:59:25] [Server thread/INFO]: Player [Haziq] joined.
+[21:59:25] [Server thread/INFO]: Haziq joined the game
+[21:59:25] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[21:59:25] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[21:59:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:59:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[21:59:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[21:59:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 6fe5b510-fd91-3419-9397-5e8d4f02c037 timed out
+[21:59:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Haziq
+[21:59:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Haziq
+[21:59:55] [Server thread/INFO]: Haziq (/100.78.192.9:50413) lost connection: Disconnected
+[22:00:01] [Netty Server IO #11/INFO]: Player [Haziq] disconnected.
+[22:00:01] [Server thread/INFO]: Haziq lost connection: Timed out
+[22:00:01] [Server thread/INFO]: Haziq left the game
+[22:00:01] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[22:00:02] [Server thread/INFO]: Haziq[/100.78.192.9:50414] logged in with entity id 43349 at (369.9401526044038, 60.5, 438.60259822470584)
+[22:00:02] [Server thread/INFO]: Player [Haziq] joined.
+[22:00:02] [Server thread/INFO]: Haziq joined the game
+[22:00:02] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[22:00:02] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[22:00:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[22:00:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[22:00:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[22:00:54] [Server thread/WARN]: cyberphantom52 moved too quickly! -0.24561710093166766,-11.06498040220228,0.2904211998329629
+[22:02:34] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/45339, l='ServerLevel[world]', x=449.35, y=27.50, z=189.65] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[22:02:39] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/45418, l='ServerLevel[world]', x=443.98, y=37.00, z=147.38] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[22:08:03] [Server thread/INFO]: Named entity class_1549['{"text":"Grumm","color":"black","obfuscated":true}'/46535, l='ServerLevel[world]', x=287.02, y=-11.00, z=93.98] died: {"text":"Grumm","color":"black","obfuscated":true} suffocated in a wall
+[22:14:59] [Server thread/INFO]: Haziq has made the advancement [Take Aim]
+[22:16:50] [Netty Server IO #14/INFO]: Player [Haziq] disconnected.
+[22:16:50] [Server thread/INFO]: Haziq lost connection: Disconnected
+[22:16:50] [Server thread/INFO]: Haziq left the game
+[22:16:50] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[22:16:57] [Netty Server IO #6/INFO]: Player [cyberphantom52] disconnected.
+[22:16:57] [Server thread/INFO]: cyberphantom52 lost connection: Disconnected
+[22:16:57] [Server thread/INFO]: cyberphantom52 left the game
+[22:16:57] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[22:16:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2139ms or 42 ticks behind
+[22:17:02] [ForkJoinPool.commonPool-worker-35/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/7b96e5cda8c723d645a5271c95301758/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[22:17:04] [Server thread/INFO]: Haziq[/100.78.192.9:50491] logged in with entity id 53222 at (367.8108934448088, 68.0, 293.950071644948)
+[22:17:04] [Server thread/INFO]: Player [Haziq] joined.
+[22:17:04] [Server thread/INFO]: Haziq joined the game
+[22:17:04] [Server thread/INFO]: [voicechat] Received secret request of Haziq (20)
+[22:17:04] [Server thread/INFO]: [voicechat] Sent secret to Haziq
+[22:17:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[22:17:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6fe5b510-fd91-3419-9397-5e8d4f02c037
+[22:17:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Haziq (6fe5b510-fd91-3419-9397-5e8d4f02c037) successfully connected to voice chat
+[22:17:06] [ForkJoinPool.commonPool-worker-36/WARN]: Failed to fetch skin 'web:https://laby.net/api/v3/texture/4a42e3365694d23d586b7033b57dcfb5/skin.png?download=1'
+java.util.concurrent.CompletionException: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1791) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: org.mineskin.exception.MineSkinRequestException: Failed to find image from url: timeout
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.wrapResponse(Java11RequestHandler.java:67) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.mineskin.Java11RequestHandler.postJson(Java11RequestHandler.java:137) ~[skinrestorer-2.4.3+1.21.6-fabric.jar:?]
+	at knot/org.mineskin.MineSkinClientImpl$QueueClientImpl.lambda$queueUrl$1(MineSkinClientImpl.java:102) ~[org_mineskin_java-client-3.0.6-SNAPSHOT-4588bf35bfd205c1.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	... 3 more
+[22:17:08] [Server thread/INFO]: cyberphantom52[/100.125.80.59:53952] logged in with entity id 53322 at (36.84003881540586, 63.84375002384186, -511.53509887755473)
+[22:17:08] [Server thread/INFO]: Player [cyberphantom52] joined.
+[22:17:08] [Server thread/INFO]: cyberphantom52 joined the game
+[22:17:09] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[22:17:09] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[22:17:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[22:17:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[22:17:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[22:17:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6030ms or 120 ticks behind
+[22:18:30] [Netty Server IO #2/INFO]: Player [Haziq] disconnected.
+[22:18:30] [Server thread/INFO]: Haziq lost connection: Disconnected
+[22:18:30] [Server thread/INFO]: Haziq left the game
+[22:18:30] [Server thread/INFO]: [voicechat] Disconnecting client Haziq
+[22:20:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40 timed out
+[22:20:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player zaidkhan
+[22:20:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to zaidkhan
+[22:20:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 0cb1341f-7385-3ef8-9941-63717c8c36d3 timed out
+[22:20:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player cyberphantom52
+[22:20:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to cyberphantom52
+[22:21:18] [Netty Server IO #10/INFO]: Player [zaidkhan] disconnected.
+[22:21:18] [Netty Server IO #3/INFO]: Player [cyberphantom52] disconnected.
+[22:21:18] [Server thread/INFO]: zaidkhan lost connection: Timed out
+[22:21:18] [Server thread/INFO]: zaidkhan left the game
+[22:21:18] [Server thread/INFO]: [voicechat] Disconnecting client zaidkhan
+[22:21:18] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[22:21:18] [Server thread/INFO]: cyberphantom52 left the game
+[22:21:18] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[22:21:54] [Server thread/INFO]: cyberphantom52[/100.125.80.59:35722] logged in with entity id 55403 at (30.750443328774708, 72.84375002384186, -1118.5935483311437)
+[22:21:54] [Server thread/INFO]: Player [cyberphantom52] joined.
+[22:21:54] [Server thread/INFO]: cyberphantom52 joined the game
+[22:21:54] [Server thread/INFO]: [voicechat] Received secret request of cyberphantom52 (20)
+[22:21:54] [Server thread/INFO]: [voicechat] Sent secret to cyberphantom52
+[22:21:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[22:21:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0cb1341f-7385-3ef8-9941-63717c8c36d3
+[22:21:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player cyberphantom52 (0cb1341f-7385-3ef8-9941-63717c8c36d3) successfully connected to voice chat
+[22:22:44] [Server thread/WARN]: Horse (vehicle of cyberphantom52) moved too quickly! -8.70598400455362,0.0,-5.215083159189817
+[22:22:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 0cb1341f-7385-3ef8-9941-63717c8c36d3 timed out
+[22:22:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player cyberphantom52
+[22:22:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to cyberphantom52
+[22:23:12] [Netty Server IO #5/INFO]: Player [cyberphantom52] disconnected.
+[22:23:12] [Server thread/INFO]: cyberphantom52 lost connection: Timed out
+[22:23:12] [Server thread/INFO]: cyberphantom52 left the game
+[22:23:12] [Server thread/INFO]: [voicechat] Disconnecting client cyberphantom52
+[22:24:12] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:14:34] [Server thread/INFO]: zaidkhan[/192.168.29.51:52148] logged in with entity id 55711 at (414.766153966703, 66.0, 415.30000001192093)
+[15:14:34] [Server thread/INFO]: Player [zaidkhan] joined.
+[15:14:34] [Server thread/INFO]: zaidkhan joined the game
+[15:14:35] [Server thread/INFO]: [voicechat] Received secret request of zaidkhan (20)
+[15:14:35] [Server thread/INFO]: [voicechat] Sent secret to zaidkhan
+[15:14:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[15:14:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 18ed1ed0-cb01-39b7-9e2e-dacf2648ce40
+[15:14:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player zaidkhan (18ed1ed0-cb01-39b7-9e2e-dacf2648ce40) successfully connected to voice chat
+[15:41:24] [Netty Server IO #7/INFO]: Player [zaidkhan] disconnected.
+[15:41:24] [Server thread/INFO]: zaidkhan lost connection: Disconnected
+[15:41:24] [Server thread/INFO]: zaidkhan left the game
+[15:41:24] [Server thread/INFO]: [voicechat] Disconnecting client zaidkhan
+[15:42:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:30:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16224ms or 324 ticks behind
+[11:32:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15359ms or 307 ticks behind
+[12:29:36] [Server thread/INFO]: Stopping server
+[12:29:36] [Server thread/INFO]: Saving players
+[12:29:36] [Server thread/INFO]: Saving worlds
+[12:29:36] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 6954 chunks to unload
+[12:29:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:29:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:29:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:29:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:29:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:29:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:29:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:29:37] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:overworld} 
+[12:29:37] [Server thread/INFO]: Closing world gen queue
+[12:29:37] [Server thread/INFO]: Closing WorldGenerationQueue...
+[12:29:37] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[12:29:37] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[12:29:37] [Server thread/INFO]: BatchGenerator shutting down...
+[12:29:37] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[12:29:37] [Server thread/INFO]: Canceling in progress generation event futures...
+[12:29:37] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[12:29:37] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[12:29:38] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[12:29:38] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[12:29:38] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[12:29:38] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[12:29:38] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[12:29:38] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[12:29:38] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[12:29:38] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[12:29:38] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[12:29:38] [C2ME Storage #3/INFO]: Storage thread Thread[#88,C2ME Storage #3,8,main] stopped
+[12:29:38] [C2ME Storage #2/INFO]: Storage thread Thread[#87,C2ME Storage #2,8,main] stopped
+[12:29:38] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:the_end} 
+[12:29:38] [Server thread/INFO]: Closing world gen queue
+[12:29:38] [C2ME Storage #1/INFO]: Storage thread Thread[#86,C2ME Storage #1,8,main] stopped
+[12:29:38] [Server thread/INFO]: Closing WorldGenerationQueue...
+[12:29:38] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[12:29:38] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[12:29:38] [Server thread/INFO]: BatchGenerator shutting down...
+[12:29:38] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[12:29:38] [Server thread/INFO]: Canceling in progress generation event futures...
+[12:29:38] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[12:29:38] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[12:29:38] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[12:29:38] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[12:29:38] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[12:29:38] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[12:29:38] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[12:29:38] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[12:29:38] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[12:29:38] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[12:29:38] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[12:29:38] [C2ME Storage #5/INFO]: Storage thread Thread[#99,C2ME Storage #5,8,main] stopped
+[12:29:38] [C2ME Storage #6/INFO]: Storage thread Thread[#100,C2ME Storage #6,8,main] stopped
+[12:29:39] [C2ME Storage #4/INFO]: Storage thread Thread[#98,C2ME Storage #4,8,main] stopped
+[12:29:39] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:the_nether} 
+[12:29:39] [Server thread/INFO]: Closing world gen queue
+[12:29:39] [Server thread/INFO]: Closing WorldGenerationQueue...
+[12:29:39] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[12:29:39] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[12:29:39] [Server thread/INFO]: BatchGenerator shutting down...
+[12:29:39] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[12:29:39] [Server thread/INFO]: Canceling in progress generation event futures...
+[12:29:39] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[12:29:39] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[12:29:39] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[12:29:39] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[12:29:39] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[12:29:39] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[12:29:39] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[12:29:39] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[12:29:39] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[12:29:39] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[12:29:39] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[12:29:39] [C2ME Storage #9/INFO]: Storage thread Thread[#104,C2ME Storage #9,8,main] stopped
+[12:29:39] [C2ME Storage #8/INFO]: Storage thread Thread[#103,C2ME Storage #8,8,main] stopped
+[12:29:39] [C2ME Storage #7/INFO]: Storage thread Thread[#102,C2ME Storage #7,8,main] stopped
+[12:29:39] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[12:29:39] [Server thread/INFO]: [EasyAuth]: SQLite database connection closed successfully.
+[12:29:39] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[12:29:39] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[12:29:39] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[12:29:39] [Server thread/INFO]: Closing all [0] database connections...
+[12:29:39] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[12:29:39] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[12:29:39] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[22:33:51] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[22:33:51] [main/INFO]: Dependencies overridden for noisium
+[22:33:51] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11+mod recommends any version of mr_spawn_animationscompats, which is missing!
+	 - You should install any version of mr_spawn_animationscompats for the optimal experience.
+[22:33:51] [main/INFO]: Loading 128 mods:
+	- alternate-current 1.9.0
+	- architectury 17.0.8
+	- axiom 5.0.1
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   |-- com_moulberry_mixinconstraints 1.0.9
+	   \-- lattice 1.2.12
+	- c2me 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-base 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-client-uncapvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-general-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-notickvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-allocs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-dfc 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-natives-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-scheduling 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-general 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-vanilla 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-serializer 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-system 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-server-utils 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-threading-lighting 0.3.5+alpha.0.8+1.21.8
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 19.0.147
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.4
+	- connectiblechains 2.5.4+1.21.8
+	- distanthorizons 2.3.4-b
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+	   \-- fabric-screen-api-v1 2.1.0+277ecf7df3
+	- easyanvils 21.8.0
+	- easyauth 3.3.6
+	   |-- at_favre_lib_bcrypt 0.10.2
+	   |-- at_favre_lib_bytes 1.6.1
+	   |-- com_mysql_mysql-connector-j 9.2.0
+	   |-- de_mkammerer_argon2-jvm 2.12
+	   |-- de_mkammerer_argon2-jvm-nolibs 2.12
+	   |-- net_java_dev_jna_jna 5.16.0
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_mongodb_bson 5.3.1
+	   |-- org_mongodb_mongodb-driver-core 5.3.1
+	   |-- org_mongodb_mongodb-driver-sync 5.3.1
+	   |-- org_xerial_sqlite-jdbc 3.49.1.0
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- easymagic 21.8.0
+	- fabric-api 0.133.4+1.21.8
+	   |-- fabric-api-base 0.5.0+cd8c0daa2c
+	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	   |-- fabric-biome-api-v1 16.0.11+946bf4c32c
+	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
+	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
+	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	   |-- fabric-data-attachment-api-v1 1.8.13+38b5f74e2c
+	   |-- fabric-data-generation-api-v1 23.2.7+0b1ef9762c
+	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
+	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
+	   |-- fabric-events-interaction-v0 4.0.25+946bf4c32c
+	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
+	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
+	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
+	   |-- fabric-model-loading-api-v1 5.2.7+946bf4c32c
+	   |-- fabric-networking-api-v1 5.0.3+4ddbf91b2c
+	   |-- fabric-object-builder-api-v1 21.1.9+946bf4c32c
+	   |-- fabric-particles-v1 4.1.9+946bf4c32c
+	   |-- fabric-recipe-api-v1 8.1.16+946bf4c32c
+	   |-- fabric-registry-sync-v0 6.1.29+946bf4c32c
+	   |-- fabric-renderer-api-v1 7.0.4+208eed172c
+	   |-- fabric-renderer-indigo 4.0.4+946bf4c32c
+	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	   |-- fabric-rendering-v1 12.5.1+fbe231d52c
+	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	   |-- fabric-resource-loader-v0 3.1.12+020423442c
+	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
+	   |-- fabric-screen-handler-api-v1 1.3.138+946bf4c32c
+	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
+	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
+	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.8.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- geophilic 3.4.3
+	- horseman 1.5.5
+	- jamlib 1.3.5+1.21.8
+	   \-- blue_endless_jankson 1.2.3
+	- java 25
+	- journeymap 1.21.8-6.0.0-beta.52
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.21-1.21.7
+	   \-- journeymap-api-fabric 2.0.0-1.21.7-SNAPSHOT
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- leavesbegone 21.8.0
+	- lithium 0.18.0+mc1.21.8
+	- lithostitched 1.5.0+beta5
+	- minecraft 1.21.8
+	- moremobs 1.5.6+bump+mod
+	- mr_dungeons_andtaverns 1-v4.7.3
+	- netherportalspread 8.4
+	- noisium 2.7.0+mc1.21.6
+	- puzzleslib 21.8.6
+	- rightclickharvest 4.6.0+1.21.8
+	- scalablelux 0.1.5.1+fabric.abdeefa
+	- skinrestorer 2.4.3+1.21.6-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- spawnanimations 1.11+mod
+	- tectonic 3.0.13
+	- terralith 2.5.11
+	- treeharvester 9.2
+	- visualworkbench 21.8.1
+	- voicechat 1.21.8-2.6.4
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+	   \-- voicechat_api 2.6.0
+	- weaponmaster_ydm 4.4.1
+[22:33:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/zaidkhan/Downloads/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:33:52] [main/INFO]: Compatibility level set to JAVA_16
+[22:33:52] [main/INFO]: Compatibility level set to JAVA_17
+[22:33:52] [main/INFO]: Compatibility level set to JAVA_21
+[22:33:52] [main/INFO]: Loading Mixin Plugin for Axiom/5.0.1
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[22:33:52] [main/INFO]: Global Executor Parallelism: 6 configured, 6 evaluated, 6 default evaluated
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[22:33:52] [main/WARN]: Cannot find native library osx-aarch_64-libc2me-opts-natives-math.dylib, possibly unsupported platform for native acceleration
+[22:33:52] [main/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[22:33:52] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@17.0.8 (*) (defined in c2me)
+[22:33:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[22:33:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[22:33:52] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:33:52] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:33:52] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:33:52] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:33:52] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[22:33:52] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[22:33:52] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:33:53] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[22:33:53] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
+[22:33:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[22:34:01] [main/INFO]: Initializing Axiom/5.0.1. Build timestamp: 1754799746052
+[22:34:01] [main/INFO]: Loading Collective version 8.4.
+[22:34:01] [main/INFO]: Initialized entity types.
+[22:34:01] [main/INFO]: Register Custom Payloads for Networking.
+[22:34:02] [main/INFO]: Constructing components for easyanvils:common
+[22:34:02] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[22:34:02] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[22:34:02] [main/INFO]: Constructing components for easymagic:common
+[22:34:02] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[22:34:02] [main/INFO]: Initializing JamLib on Fabric
+[22:34:02] [main/INFO]: Initializing ServerSide Packet Registries
+[22:34:03] [main/INFO]: Compression will use libdeflate (macOS ARM64 / Apple Silicon), encryption will use native (macOS ARM64 / Apple Silicon)
+[22:34:03] [main/INFO]: Constructing components for leavesbegone:common
+[22:34:03] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
+[22:34:03] [main/INFO]: Loading Noisium.
+[22:34:03] [main/INFO]: Constructing components for puzzleslib:common
+[22:34:03] [main/INFO]: Updated config file at /Users/zaidkhan/Downloads/minecraft-server/config/rightclickharvest.json5
+[22:34:03] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[22:34:03] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[22:34:03] [main/INFO]: Constructing components for visualworkbench:common
+[22:34:03] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[22:34:03] [main/INFO]: [voicechat] Compatibility version 20
+[22:34:03] [main/INFO]: [voicechat] Loading plugins
+[22:34:03] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[22:34:03] [main/INFO]: [voicechat] Initializing plugins
+[22:34:03] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[22:34:04] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[22:34:04] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[22:34:04] [main/INFO]: Distant Horizons, Version: 2.3.4-b
+[22:34:04] [main/INFO]: Registering Fabric Server Events
+[22:34:04] [main/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[22:34:04] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[22:34:04] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[22:34:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:34:07] [main/INFO]: Loaded 1414 recipes
+[22:34:07] [main/INFO]: Loaded 1577 advancements
+[22:34:07] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 44 translation keys
+[22:34:08] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 3.460 ms
+[22:34:08] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[22:34:08] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[22:34:08] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[22:34:08] [Server thread/INFO]: Initialising config for DistantHorizons
+[22:34:08] [Server thread/INFO]: Config for DistantHorizons initialised
+[22:34:08] [Server thread/INFO]: Running Delayed setup...
+[22:34:08] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[22:34:08] [Server thread/INFO]: Checking for Distant Horizons update
+[22:34:11] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[22:34:11] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[22:34:11] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[22:34:11] [DH-ApplyConfigPresetTimer/INFO]: preset active: LOW_IMPACT
+[22:34:34] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) [authlib-6.0.58.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) [authlib-6.0.58.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328) [?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:569) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:659) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:161) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:516) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:206) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:288) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1008) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:899) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1377) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1302) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:493) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at knot/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.58.jar:?]
+	... 9 more
+[22:34:38] [Server thread/ERROR]: Unable to set up Modrinth access, error: [api.modrinth.com]
+java.net.UnknownHostException: api.modrinth.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:569) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:284) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:659) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:161) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:516) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:604) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:206) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:288) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:963) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:899) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1377) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1302) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at knot/com.seibel.distanthorizons.core.jar.installer.WebDownloader.downloadAsString(WebDownloader.java:108) ~[DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/com.seibel.distanthorizons.core.jar.installer.WebDownloader.parseWebJsonList(WebDownloader.java:143) ~[DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/com.seibel.distanthorizons.core.jar.installer.WebDownloader.parseWebJsonList(WebDownloader.java:138) ~[DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/com.seibel.distanthorizons.core.jar.installer.ModrinthGetter.init(ModrinthGetter.java:65) [DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/com.seibel.distanthorizons.core.jar.updater.SelfUpdater.onStableStart(SelfUpdater.java:107) [DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/com.seibel.distanthorizons.core.jar.updater.SelfUpdater.onStart(SelfUpdater.java:95) [DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/loaderCommon.fabric.com.seibel.distanthorizons.common.AbstractModInitializer.checkForUpdates(AbstractModInitializer.java:178) [DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/loaderCommon.fabric.com.seibel.distanthorizons.common.AbstractModInitializer.lambda$onInitializeServer$1(AbstractModInitializer.java:120) [DistantHorizons-2.3.4-b-1.21.8-fabric-neoforge.jar:?]
+	at knot/net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$0(ServerLifecycleEvents.java:38) [fabric-lifecycle-events-v1-2.6.4+db4dfd852c-f17cf17b59df5ffd.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.handler$bbn000$fabric-lifecycle-events-v1$beforeSetupServer(MinecraftServer.java:3197) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:672) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) [server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?]
+[22:34:38] [Server thread/WARN]: Unable to find any nightly build pipelines, auto update will be unavailable.
+[22:34:38] [Server thread/INFO]: Distant Horizons server Initialized at 
+[22:34:38] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[22:34:38] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[22:34:38] [Server thread/INFO]: Loading properties
+[22:34:38] [Server thread/INFO]: Default game type: SURVIVAL
+[22:34:38] [Server thread/INFO]: Generating keypair
+[22:34:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:34:38] [Server thread/INFO]: Using default channel type
+[22:34:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:34:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:34:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:34:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:34:39] [Server thread/INFO]: Preparing level "world"
+[22:34:39] [Server thread/INFO]: Enforcing safe world random access
+[22:34:40] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 617.9 ms
+[22:34:40] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[22:34:40] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[22:34:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[22:34:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.201 ms
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[22:34:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data)]].
+[22:34:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 24.04 ms
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[22:34:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[22:34:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM1/data;./world/data;./world/DIM-1/data)]].
+[22:34:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:34:50] [c2me-worker-0/INFO]: Preparing spawn area: 81%
+[22:34:50] [c2me-worker-0/INFO]: Preparing spawn area: 81%
+[22:34:50] [c2me-worker-0/INFO]: Preparing spawn area: 81%
+[22:34:50] [c2me-worker-4/INFO]: Preparing spawn area: 83%
+[22:34:50] [Server thread/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [c2me-worker-5/INFO]: Preparing spawn area: 100%
+[22:34:54] [Server thread/INFO]: Time elapsed: 6250 ms
+[22:34:54] [Server thread/INFO]: Done (15.978s)! For help, type "help"
+[22:34:55] [Server thread/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[22:34:55] [Server thread/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[22:34:55] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[22:34:55] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@5879f434 for service interface journeymap.api.services.ClientPlatformService
+[22:34:55] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@17d3452f for service interface journeymap.api.services.CommonPlatformService
+[22:34:55] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[22:34:55] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[22:34:55] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[22:34:55] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[22:34:55] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[22:34:55] [Server thread/INFO]: Batch Chunk Generator initialized
+[22:34:55] [Server thread/INFO]: Creating world gen queue
+[22:34:55] [Server thread/INFO]: Created world gen queue
+[22:34:55] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[22:34:55] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[22:34:55] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[22:34:55] [Server thread/INFO]: Batch Chunk Generator initialized
+[22:34:55] [Server thread/INFO]: Creating world gen queue
+[22:34:55] [Server thread/INFO]: Created world gen queue
+[22:34:55] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[22:34:55] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[22:34:55] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[22:34:55] [Server thread/INFO]: Batch Chunk Generator initialized
+[22:34:55] [Server thread/INFO]: Creating world gen queue
+[22:34:55] [Server thread/INFO]: Created world gen queue
+[22:34:55] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[22:35:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:27:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16805ms or 336 ticks behind
+[11:04:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15966ms or 319 ticks behind
+[20:35:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17195ms or 343 ticks behind
+[21:01:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16565ms or 331 ticks behind
+[06:58:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16492ms or 329 ticks behind
+[21:27:24] [Server thread/INFO]: Stopping server
+[21:27:24] [Server thread/INFO]: Saving players
+[21:27:24] [Server thread/INFO]: Saving worlds
+[21:27:24] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[21:27:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:27:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:27:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:27:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:27:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:27:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:27:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:27:24] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:overworld} 
+[21:27:24] [Server thread/INFO]: Closing world gen queue
+[21:27:24] [Server thread/INFO]: Closing WorldGenerationQueue...
+[21:27:24] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[21:27:24] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[21:27:24] [Server thread/INFO]: BatchGenerator shutting down...
+[21:27:24] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[21:27:24] [Server thread/INFO]: Canceling in progress generation event futures...
+[21:27:24] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[21:27:24] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[21:27:24] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[21:27:24] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[21:27:24] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[21:27:24] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[21:27:24] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[21:27:24] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[21:27:25] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[21:27:25] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[21:27:25] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[21:27:25] [C2ME Storage #2/INFO]: Storage thread Thread[#85,C2ME Storage #2,8,main] stopped
+[21:27:25] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:the_end} 
+[21:27:25] [C2ME Storage #1/INFO]: Storage thread Thread[#84,C2ME Storage #1,8,main] stopped
+[21:27:25] [C2ME Storage #3/INFO]: Storage thread Thread[#86,C2ME Storage #3,8,main] stopped
+[21:27:25] [Server thread/INFO]: Closing world gen queue
+[21:27:25] [Server thread/INFO]: Closing WorldGenerationQueue...
+[21:27:25] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[21:27:25] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[21:27:25] [Server thread/INFO]: BatchGenerator shutting down...
+[21:27:25] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[21:27:25] [Server thread/INFO]: Canceling in progress generation event futures...
+[21:27:25] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[21:27:25] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[21:27:25] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[21:27:25] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[21:27:25] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[21:27:25] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[21:27:25] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[21:27:25] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[21:27:25] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[21:27:25] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[21:27:25] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[21:27:25] [C2ME Storage #5/INFO]: Storage thread Thread[#97,C2ME Storage #5,8,main] stopped
+[21:27:25] [C2ME Storage #6/INFO]: Storage thread Thread[#98,C2ME Storage #6,8,main] stopped
+[21:27:25] [C2ME Storage #4/INFO]: Storage thread Thread[#96,C2ME Storage #4,8,main] stopped
+[21:27:25] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:the_nether} 
+[21:27:25] [Server thread/INFO]: Closing world gen queue
+[21:27:25] [Server thread/INFO]: Closing WorldGenerationQueue...
+[21:27:25] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[21:27:25] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[21:27:25] [Server thread/INFO]: BatchGenerator shutting down...
+[21:27:25] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[21:27:25] [Server thread/INFO]: Canceling in progress generation event futures...
+[21:27:25] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[21:27:25] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[21:27:25] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[21:27:25] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[21:27:25] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[21:27:25] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[21:27:25] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[21:27:25] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[21:27:26] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[21:27:26] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[21:27:26] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[21:27:26] [C2ME Storage #9/INFO]: Storage thread Thread[#102,C2ME Storage #9,8,main] stopped
+[21:27:26] [C2ME Storage #8/INFO]: Storage thread Thread[#101,C2ME Storage #8,8,main] stopped
+[21:27:26] [C2ME Storage #7/INFO]: Storage thread Thread[#100,C2ME Storage #7,8,main] stopped
+[21:27:26] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[21:27:26] [Server thread/INFO]: [EasyAuth]: SQLite database connection closed successfully.
+[21:27:26] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[21:27:26] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[21:27:26] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[21:27:26] [Server thread/INFO]: Closing all [0] database connections...
+[21:27:26] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[21:27:26] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[21:27:26] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[21:29:12] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.17.2
+[21:29:12] [main/INFO]: Dependencies overridden for noisium
+[21:29:13] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.6+bump+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.11+mod recommends any version of mr_spawn_animationscompats, which is missing!
+	 - You should install any version of mr_spawn_animationscompats for the optimal experience.
+[21:29:13] [main/INFO]: Loading 128 mods:
+	- alternate-current 1.9.0
+	- architectury 17.0.8
+	- axiom 5.0.1
+	   |-- com_moulberry_axiomclientapi 1.0.0
+	   |-- com_moulberry_mixinconstraints 1.0.9
+	   \-- lattice 1.2.12
+	- c2me 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-base 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-client-uncapvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-general-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-notickvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-allocs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-dfc 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-natives-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-scheduling 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-general 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-vanilla 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-serializer 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-system 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-server-utils 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-threading-lighting 0.3.5+alpha.0.8+1.21.8
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 19.0.147
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.4
+	- connectiblechains 2.5.4+1.21.8
+	- distanthorizons 2.3.4-b
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+	   \-- fabric-screen-api-v1 2.1.0+277ecf7df3
+	- easyanvils 21.8.0
+	- easyauth 3.3.6
+	   |-- at_favre_lib_bcrypt 0.10.2
+	   |-- at_favre_lib_bytes 1.6.1
+	   |-- com_mysql_mysql-connector-j 9.2.0
+	   |-- de_mkammerer_argon2-jvm 2.12
+	   |-- de_mkammerer_argon2-jvm-nolibs 2.12
+	   |-- net_java_dev_jna_jna 5.16.0
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_mongodb_bson 5.3.1
+	   |-- org_mongodb_mongodb-driver-core 5.3.1
+	   |-- org_mongodb_mongodb-driver-sync 5.3.1
+	   |-- org_xerial_sqlite-jdbc 3.49.1.0
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- easymagic 21.8.0
+	- fabric-api 0.133.4+1.21.8
+	   |-- fabric-api-base 0.5.0+cd8c0daa2c
+	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	   |-- fabric-biome-api-v1 16.0.11+946bf4c32c
+	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
+	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
+	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	   |-- fabric-data-attachment-api-v1 1.8.13+38b5f74e2c
+	   |-- fabric-data-generation-api-v1 23.2.7+0b1ef9762c
+	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
+	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
+	   |-- fabric-events-interaction-v0 4.0.25+946bf4c32c
+	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
+	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
+	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
+	   |-- fabric-model-loading-api-v1 5.2.7+946bf4c32c
+	   |-- fabric-networking-api-v1 5.0.3+4ddbf91b2c
+	   |-- fabric-object-builder-api-v1 21.1.9+946bf4c32c
+	   |-- fabric-particles-v1 4.1.9+946bf4c32c
+	   |-- fabric-recipe-api-v1 8.1.16+946bf4c32c
+	   |-- fabric-registry-sync-v0 6.1.29+946bf4c32c
+	   |-- fabric-renderer-api-v1 7.0.4+208eed172c
+	   |-- fabric-renderer-indigo 4.0.4+946bf4c32c
+	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	   |-- fabric-rendering-v1 12.5.1+fbe231d52c
+	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	   |-- fabric-resource-loader-v0 3.1.12+020423442c
+	   |-- fabric-screen-api-v1 2.1.1+277ecf7d2c
+	   |-- fabric-screen-handler-api-v1 1.3.138+946bf4c32c
+	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
+	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
+	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.8.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- geophilic 3.4.3
+	- horseman 1.5.5
+	- jamlib 1.3.5+1.21.8
+	   \-- blue_endless_jankson 1.2.3
+	- java 25
+	- journeymap 1.21.8-6.0.0-beta.52
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.21-1.21.7
+	   \-- journeymap-api-fabric 2.0.0-1.21.7-SNAPSHOT
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- leavesbegone 21.8.0
+	- lithium 0.18.0+mc1.21.8
+	- lithostitched 1.5.0+beta5
+	- minecraft 1.21.8
+	- moremobs 1.5.6+bump+mod
+	- mr_dungeons_andtaverns 1-v4.7.3
+	- netherportalspread 8.4
+	- noisium 2.7.0+mc1.21.6
+	- puzzleslib 21.8.6
+	- rightclickharvest 4.6.0+1.21.8
+	- scalablelux 0.1.5.1+fabric.abdeefa
+	- skinrestorer 2.4.3+1.21.6-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- spawnanimations 1.11+mod
+	- tectonic 3.0.13
+	- terralith 2.5.11
+	- treeharvester 9.2
+	- visualworkbench 21.8.1
+	- voicechat 1.21.8-2.6.4
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c3f3
+	   |-- fabric-rendering-v1 12.4.0+e8d43c76f3
+	   \-- voicechat_api 2.6.0
+	- weaponmaster_ydm 4.4.1
+[21:29:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/zaidkhan/Downloads/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:29:13] [main/INFO]: Compatibility level set to JAVA_16
+[21:29:13] [main/INFO]: Compatibility level set to JAVA_17
+[21:29:13] [main/INFO]: Compatibility level set to JAVA_21
+[21:29:13] [main/INFO]: Loading Mixin Plugin for Axiom/5.0.1
+[21:29:13] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:29:14] [main/INFO]: Global Executor Parallelism: 6 configured, 6 evaluated, 6 default evaluated
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[21:29:14] [main/WARN]: Cannot find native library osx-aarch_64-libc2me-opts-natives-math.dylib, possibly unsupported platform for native acceleration
+[21:29:14] [main/INFO]: Disabling com.ishland.c2me.opts.natives_math.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:29:14] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@17.0.8 (*) (defined in c2me)
+[21:29:14] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:29:14] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:29:14] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:29:14] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:29:14] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:29:14] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:29:14] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[21:29:14] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[21:29:14] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:29:16] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[21:29:16] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
+[21:29:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:29:27] [main/INFO]: Initializing Axiom/5.0.1. Build timestamp: 1754799746052
+[21:29:27] [main/INFO]: Loading Collective version 8.4.
+[21:29:27] [main/INFO]: Initialized entity types.
+[21:29:27] [main/INFO]: Register Custom Payloads for Networking.
+[21:29:27] [main/INFO]: Constructing components for easyanvils:common
+[21:29:27] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[21:29:27] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[21:29:28] [main/INFO]: Constructing components for easymagic:common
+[21:29:28] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[21:29:28] [main/INFO]: Initializing JamLib on Fabric
+[21:29:28] [main/INFO]: Initializing ServerSide Packet Registries
+[21:29:28] [main/INFO]: Compression will use libdeflate (macOS ARM64 / Apple Silicon), encryption will use native (macOS ARM64 / Apple Silicon)
+[21:29:28] [main/INFO]: Constructing components for leavesbegone:common
+[21:29:28] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
+[21:29:28] [main/INFO]: Loading Noisium.
+[21:29:28] [main/INFO]: Constructing components for puzzleslib:common
+[21:29:28] [main/INFO]: Updated config file at /Users/zaidkhan/Downloads/minecraft-server/config/rightclickharvest.json5
+[21:29:28] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[21:29:29] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[21:29:29] [main/INFO]: Constructing components for visualworkbench:common
+[21:29:29] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[21:29:29] [main/INFO]: [voicechat] Compatibility version 20
+[21:29:29] [main/INFO]: [voicechat] Loading plugins
+[21:29:29] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:29:29] [main/INFO]: [voicechat] Initializing plugins
+[21:29:29] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:29:29] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[21:29:29] [main/INFO]: Initializing Distant Horizons server, firing DhApiBeforeDhInitEvent event...
+[21:29:29] [main/INFO]: Distant Horizons, Version: 2.3.4-b
+[21:29:29] [main/INFO]: Registering Fabric Server Events
+[21:29:29] [main/INFO]: Registered mod compatibility accessor for: [Starlight-Fabric-1.18.X].
+[21:29:29] [main/INFO]: Distant Horizons server Initialized, adding event subscribers...
+[21:29:29] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[21:29:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:29:37] [main/INFO]: Loaded 1414 recipes
+[21:29:37] [main/INFO]: Loaded 1577 advancements
+[21:29:37] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 44 translation keys
+[21:29:37] [main/INFO]: Applied 0 biome modifications to 0 of 160 new biomes in 2.020 ms
+[21:29:37] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[21:29:37] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[21:29:37] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[21:29:37] [Server thread/INFO]: Initialising config for DistantHorizons
+[21:29:38] [Server thread/INFO]: Config for DistantHorizons initialised
+[21:29:38] [Server thread/INFO]: Running Delayed setup...
+[21:29:38] [Server thread/INFO]: Delayed setup complete, firing DhApiAfterDhInitEvent event...
+[21:29:38] [Server thread/INFO]: Checking for Distant Horizons update
+[21:29:39] [Server thread/INFO]: Distant Horizons already up to date.
+[21:29:39] [Server thread/INFO]: Distant Horizons server Initialized at 
+[21:29:39] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[21:29:39] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:29:39] [Server thread/INFO]: Loading properties
+[21:29:39] [Server thread/INFO]: Default game type: SURVIVAL
+[21:29:39] [Server thread/INFO]: Generating keypair
+[21:29:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:29:39] [Server thread/INFO]: Using default channel type
+[21:29:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:29:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:29:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:29:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:29:39] [Server thread/INFO]: Preparing level "world"
+[21:29:39] [Server thread/INFO]: Enforcing safe world random access
+[21:29:41] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[21:29:41] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[21:29:41] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[21:29:41] [DH-ApplyConfigPresetTimer/INFO]: preset active: LOW_IMPACT
+[21:29:41] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.075 s
+[21:29:42] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:29:42] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[21:29:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[21:29:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.358 ms
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[21:29:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data)]].
+[21:29:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 21.66 ms
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[21:29:48] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[21:29:48] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/data;./world/DIM1/data;./world/DIM-1/data)]].
+[21:29:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:29:49] [c2me-worker-0/INFO]: Preparing spawn area: 81%
+[21:29:49] [c2me-worker-0/INFO]: Preparing spawn area: 81%
+[21:29:50] [c2me-worker-1/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [c2me-worker-3/INFO]: Preparing spawn area: 100%
+[21:29:54] [Server thread/INFO]: Time elapsed: 5450 ms
+[21:29:54] [Server thread/INFO]: Done (14.694s)! For help, type "help"
+[21:29:54] [Server thread/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[21:29:54] [Server thread/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[21:29:54] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[21:29:54] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@4cc0f27a for service interface journeymap.api.services.ClientPlatformService
+[21:29:54] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@463746fe for service interface journeymap.api.services.CommonPlatformService
+[21:29:54] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21:29:54] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[21:29:54] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[21:29:54] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[21:29:54] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[21:29:54] [Server thread/INFO]: Batch Chunk Generator initialized
+[21:29:54] [Server thread/INFO]: Creating world gen queue
+[21:29:54] [Server thread/INFO]: Created world gen queue
+[21:29:54] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[21:29:54] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[21:29:54] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[21:29:54] [Server thread/INFO]: Batch Chunk Generator initialized
+[21:29:54] [Server thread/INFO]: Creating world gen queue
+[21:29:54] [Server thread/INFO]: Created world gen queue
+[21:29:54] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[21:29:54] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[21:29:54] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use methods handled by C2ME.
+[21:29:54] [Server thread/INFO]: Batch Chunk Generator initialized
+[21:29:54] [Server thread/INFO]: Creating world gen queue
+[21:29:54] [Server thread/INFO]: Created world gen queue
+[21:29:54] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[21:30:54] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:47:30] [Server thread/INFO]: Stopping server
+[14:47:30] [Server thread/INFO]: Saving players
+[14:47:30] [Server thread/INFO]: Saving worlds
+[14:47:30] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[14:47:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:47:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:47:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:47:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:47:30] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:overworld} 
+[14:47:30] [Server thread/INFO]: Closing world gen queue
+[14:47:30] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:47:30] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:47:30] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:47:30] [Server thread/INFO]: BatchGenerator shutting down...
+[14:47:30] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:47:30] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:47:30] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:47:30] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:47:31] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[14:47:31] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[14:47:31] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[14:47:31] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[14:47:31] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[14:47:31] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[14:47:31] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[14:47:31] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:overworld}].
+[14:47:31] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[14:47:31] [C2ME Storage #2/INFO]: Storage thread Thread[#87,C2ME Storage #2,8,main] stopped
+[14:47:31] [C2ME Storage #3/INFO]: Storage thread Thread[#88,C2ME Storage #3,8,main] stopped
+[14:47:31] [C2ME Storage #1/INFO]: Storage thread Thread[#86,C2ME Storage #1,8,main] stopped
+[14:47:31] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:the_end} 
+[14:47:31] [Server thread/INFO]: Closing world gen queue
+[14:47:31] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:47:31] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:47:31] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:47:31] [Server thread/INFO]: BatchGenerator shutting down...
+[14:47:31] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:47:31] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:47:31] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:47:31] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:47:31] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[14:47:31] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[14:47:31] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[14:47:31] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[14:47:31] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[14:47:31] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[14:47:31] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[14:47:31] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_end}].
+[14:47:31] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[14:47:31] [C2ME Storage #6/INFO]: Storage thread Thread[#100,C2ME Storage #6,8,main] stopped
+[14:47:31] [C2ME Storage #5/INFO]: Storage thread Thread[#99,C2ME Storage #5,8,main] stopped
+[14:47:31] [C2ME Storage #4/INFO]: Storage thread Thread[#98,C2ME Storage #4,8,main] stopped
+[14:47:31] [Server thread/INFO]: Unloading level DhServerLevel{dkna29qjq5raq@minecraft:the_nether} 
+[14:47:31] [Server thread/INFO]: Closing world gen queue
+[14:47:31] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:47:31] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:47:31] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:47:31] [Server thread/INFO]: BatchGenerator shutting down...
+[14:47:31] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:47:31] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:47:31] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:47:31] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:47:31] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[14:47:31] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[14:47:31] [Server thread/INFO]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[14:47:31] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[14:47:31] [Server thread/INFO]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[14:47:31] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[14:47:32] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[14:47:32] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{dkna29qjq5raq@minecraft:the_nether}].
+[14:47:32] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[14:47:32] [C2ME Storage #8/INFO]: Storage thread Thread[#103,C2ME Storage #8,8,main] stopped
+[14:47:32] [C2ME Storage #7/INFO]: Storage thread Thread[#102,C2ME Storage #7,8,main] stopped
+[14:47:32] [C2ME Storage #9/INFO]: Storage thread Thread[#104,C2ME Storage #9,8,main] stopped
+[14:47:32] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[14:47:32] [Server thread/INFO]: [EasyAuth]: SQLite database connection closed successfully.
+[14:47:32] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[14:47:32] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[14:47:32] [Server thread/INFO]: Shutting down PriorityTaskPicker thread pool...
+[14:47:32] [Server thread/INFO]: Closing all [0] database connections...
+[14:47:32] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[14:47:32] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[14:47:32] [Server thread/INFO]: Dispatching unloading event for config leavesbegone-server.toml
